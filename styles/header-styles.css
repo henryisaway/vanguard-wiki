@@ -1,29 +1,62 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel');
+@import url('https://fonts.googleapis.com/css2?family=Uncial-Antiqua');
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 @import url('https://fonts.googleapis.com/css?family=Lora');
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative');
 
 header {
-	background-color: #2f2f2f;
+	background: linear-gradient(to bottom, #16262e, rgba(0, 0, 0, 0));
+
+	position: sticky;
+	top: 0px;
+	left: 0px;
+	width: 100vw;
+	height: 100px;
+}
+
+.avatar {
+	width: 40px;
+	border-radius: 50%;
+
+	position: relative;
+	top: -45px;
+	left: 95vw;
+}
+
+.avatar:hover{
+	cursor: pointer;
 }
 
 .page-welcome {
 	font-family: Lora;
 	font-size: 15px;
 
-	color: white;
+	color: #EEF1EF;
 
+	position: relative;
+	top: 25px;
+
+	text-align: center;
+
+	margin-top: 0px;
+	margin-left: 5px;
 	margin-bottom: 0px;
 }
 
 .page-title {
-	font-family: Cinzel;
-	font-size: 30px;
+	font-family: "Cinzel Decorative", serif;
+	font-size: 40px;
 	font-weight: bold;
 
-	color: #ff9900;
+	position: relative;
+
+	top: 30px;
+
+	color: #EEF1EF;
+
+	text-align: center;
 
 	margin-top: 0px;
+	margin-left: 0px;
 
 	vertical-align: top;
 }

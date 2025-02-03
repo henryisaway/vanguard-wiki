@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+.home-page-navbar{
+	border-top: 2px solid #8B1E3F;
+
+	position: relative;
+	top: 15px;
+
+	text-align: center;
+
+	color: #EEF1EF;
+}
+
+button {
+	font-family: Montserrat;
+
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 12px;
+	padding-right: 12px;
+
+	cursor: pointer;
+}
+
+.navbar-button {
+	background: linear-gradient(to bottom, #8B1E3F, transparent);
+	background-size: 100% 0%;
+	background-repeat: no-repeat;
+	background-position: top;
+
+	color: #EEF1EF;
+
+	border: none;
+	
+	transition: background-size 150ms ease-in-out;
+}
+
+.navbar-button:hover {
+	background-size: 100% 100%;
+}
