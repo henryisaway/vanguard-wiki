@@ -127,3 +127,15 @@
 	box-shadow: 0 0 10px #f5b40f;
 	background-color: #f5b40f;
 }
+
+.game-screen {
+	background-color: rgba(70, 179, 27, 0.15);
+	border-color: rgb(70, 179, 27);
+	color: rgb(70, 179, 27);
+}
+
+.game-screen:hover {
+	color: #EEF1EF;
+	box-shadow: 0 0 10px rgb(70, 179, 27);
+	background-color: rgb(70, 179, 27);
+}
