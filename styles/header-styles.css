@@ -6,7 +6,7 @@
 header {
 	background: linear-gradient(to bottom, #16262e, rgba(0, 0, 0, 0));
 
-	position: sticky;
+	position: relative;
 	top: 0px;
 	left: 0px;
 	width: 100vw;

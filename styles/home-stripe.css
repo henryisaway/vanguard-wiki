@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+.home-stripe {
+	background-color: transparent;
+
+	display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    width: fit-content;
+
+	text-decoration: none !important;
+
+	position: relative;
+	top: 50px;
+
+	margin: 0 auto;
+
+	height: 350px;
+}
+
+.home-stripe-button {
+	background-color: transparent;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+
+	border-style: solid;
+	border-width: 5px;
+	border-radius: 2px;
+	border-color: rgb(150, 150, 0);
+
+	font-family: Montserrat;
+	font-weight: bold;
+	font-size: 20px;
+
+	padding-bottom: 25px;
+	height: 300px;
+	width: 200px;
+
+	margin: 25px;
+
+	transition: box-shadow 100ms, background-color 100ms, color 100ms;
+}
+
+.races {
+	background-color: rgba(255, 136, 17, 0.15);
+	border-color: #FF8811;
+	color: #FF8811;
+}
+
+.races:hover {
+	color: #EEF1EF;
+	box-shadow: 0 0 10px #FF8811;
+	background-color: #FF8811;
+}
+
+.archetypes {
+	background-color: rgba(255, 17, 80, 0.15);
+	border-color: #ff1150;
+	color: #ff1150;
+}
+
+.archetypes:hover {
+	color: #EEF1EF;
+	box-shadow: 0 0 10px #ff1150;
+	background-color: #ff1150;
+}
+
+.essences {
+	background-color: rgba(20, 132, 252, 0.15);
+	border-color: #1484fc;
+	color: #1484fc;
+}
+
+.essences:hover {
+	color: #EEF1EF;
+	box-shadow: 0 0 10px #1484fc;
+	background-color: #1484fc;
+}
+
+.skillset {
+	background-color: rgba(252, 51, 20, 0.15);
+	border-color: #fc3314;
+	color: #fc3314;
+}
+
+.skillset:hover {
+	color: #EEF1EF;
+	box-shadow: 0 0 10px #fc3314;
+	background-color: #fc3314;
+}
+
+.items {
+	background-color: rgba(31, 207, 84, 0.15);
+	border-color: #1fcf54;
+	color: #1fcf54;
+}
+
+.items:hover {
+	color: #EEF1EF;
+	box-shadow: 0 0 10px #1fcf54;
+	background-color: #1fcf54;
+}
+
+.bestiary {
+	background-color: rgba(177, 32, 245, 0.15);
+	border-color: #b120f5;
+	color: #b120f5;
+}
+
+.bestiary:hover {
+	color: #EEF1EF;
+	box-shadow: 0 0 10px #b120f5;
+	background-color: #b120f5;
+}
+
+.character-creator {
+	background-color: rgba(245, 180, 15, 0.15);
+	border-color: #f5b40f;
+	color: #f5b40f;
+}
+
+.character-creator:hover {
+	color: #EEF1EF;
+	box-shadow: 0 0 10px #f5b40f;
+	background-color: #f5b40f;
+}

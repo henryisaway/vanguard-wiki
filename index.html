@@ -3,10 +3,11 @@
 <html lang = "en">
 	<head>
 		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale-1.0"  />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"  />
 		<link rel="stylesheet" href="styles/body-styles.css" />
 		<link rel="stylesheet" href="styles/header-styles.css" />
-		<link rel="stylesheet" href="styles/button-styles.css" />
+		<link rel="stylesheet" href="styles/navbar.css">
+		<link rel="stylesheet" href="styles/home-stripe.css">
 		<title>The Codex of Vanguard</title>
 	</head>
 	<body>
@@ -17,9 +18,44 @@
 			<h1 class="page-title">
 				The Codex of Vanguard
 			</h1>
+			<a href="https://www.youtube.com" target="_blank">
+				<img class="avatar" src="images/avatar-mockup.png" alt="avatar">
+			</a>
 		</header>
+
+		<!--- Navbar --->
+		<nav class="home-page-navbar">
+			<button class="navbar-button">
+				Home
+			</button>
+			<button class="navbar-button">
+				Rules
+			</button>
+			<button class="navbar-button">
+				Compendiums
+			</button>
+			<button class="navbar-button">
+				Your Characters
+			</button>
+			<button class="navbar-button">
+				Homebrews
+			</button>
+			<button class="navbar-button">
+				About
+			</button>
+		</nav>
+
+		<!--- Home stripe --->
+		<div class="home-stripe">
+			<button class="home-stripe-button races" onclick="location.href='races.html'">Races</button>
+			<button class="home-stripe-button archetypes" onclick="location.href='archetypes.html'">Archetypes</button>
+			<button class="home-stripe-button essences" onclick="location.href='essences.html'">Essences</button>
+			<button class="home-stripe-button skillset" onclick="location.href='skillset.html'">Skillset</button>
+			<button class="home-stripe-button items" onclick="location.href='items.html'">Items</button>
+			<button class="home-stripe-button bestiary" onclick="location.href='bestiary.html'">Bestiary</button>
+			<button class="home-stripe-button character-creator" onclick="location.href='character creator.html'">Character Creator</button>
+			<button class="home-stripe-button game-screen" onclick="location.href='game-screen.html'">Game Screen</button>
+		</div>
+
 	</body>
-	<main>
-		
-	</main>
 </html>
