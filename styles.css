@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Lora');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+	background-color: #0f0f0f;
+}
+
+.page-welcome {
+	font-family: Lora;
+	font-size: 15px;
+
+	color: white;
+
+	margin-bottom: 0px;
+}
+
+.page-title {
+	font-family: Cinzel;
+	font-size: 30px;
+	font-weight: bold;
+
+	color: #ff9900;
+
+	margin-top: 0px;
+
+	vertical-align: top;
+}
