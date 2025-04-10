@@ -2,9 +2,10 @@
 document.addEventListener('DOMContentLoaded', function() {
     const header = document.querySelector('header');
     let ticking = false;
+    let triggerHeight = 50;
     
     function updateHeader() {
-        if (window.scrollY > 50) {
+        if (window.scrollY > triggerHeight) {
             header.classList.add('scrolled');
         } else {
             header.classList.remove('scrolled');
