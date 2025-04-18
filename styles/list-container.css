@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+.list-container {
+    background-color: #020a12;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    flex: 0 0 250px;
+}
+
+.list-container p {
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #f3f3f3;
+
+    margin: 0;
+
+    text-align: left;
+    padding: 5px 0 5px 20px;
+}
+
+.list-items {
+    padding: 5px 20px;
+    margin-left: 0;
+    list-style-position: inside; /* Aligns bullets with text */
+    list-style: none;
+}
+
+.list-item {
+    background-color: transparent;
+    border-radius: 5px;
+
+    will-change: background-color, box-shadow;
+    transition: all 0.15s ease;
+}
+
+.list-item:hover {
+    background-color: #216073;
+    box-shadow: 0 0 10px 2px rgba(166, 234, 255, 0.2);
+}
